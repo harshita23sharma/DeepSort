@@ -45,7 +45,7 @@ def main(yolo):
 
     writeVideo_flag = True 
     
-    video_capture = cv2.VideoCapture("/content/drive/My Drive/20191121163200-20191121163700/IP Camera8_Blr_20191121163519_20191121163647_796109.mp4")
+    video_capture = cv2.VideoCapture("input_demo1.mp4")
 
     if writeVideo_flag:
     # Define the codec and create VideoWriter object
