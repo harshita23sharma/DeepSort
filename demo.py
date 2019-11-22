@@ -45,7 +45,7 @@ def main(yolo):
 
     writeVideo_flag = True 
     
-    video_capture = cv2.VideoCapture("/content/drive/My Drive/20191121163200-20191121163700/IP\ Camera8_Blr_20191121163519_20191121163647_796109.mp4")
+    video_capture = cv2.VideoCapture("/content/drive/My Drive/20191121163200-20191121163700/IP Camera8_Blr_20191121163519_20191121163647_796109.mp4")
 
     if writeVideo_flag:
     # Define the codec and create VideoWriter object
@@ -129,7 +129,7 @@ def main(yolo):
             if point_test == 'inside':
                 cv2.rectangle(frame,(int(bbox[0]), int(bbox[1])), (int(bbox[2]), int(bbox[3])),(255,0,0), 2)
             
-        cv2.imshow('', frame)
+        #cv2.imshow('', frame)
         
         if writeVideo_flag:
             # save a frame
